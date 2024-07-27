@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".crear_cuenta">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/logo_sena"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="47dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/crear_cuenta"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="208dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="@string/edit_last_name"
+        android:inputType="text"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="@string/edit_correo"
+        android:inputType="text"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="458dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="@string/edit_pass"
+        android:inputType="text"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="513dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="@string/edit_cel"
+        android:inputType="text"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="403dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="@string/edit_name"
+        android:inputType="text"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="291dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/Sena"
+        android:text="@string/btn_create"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="612dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="/private/var/adminmac" vcs="Git" />
+    <mapping directory="/private/var/adminmac/AndroidStudioProjects/MyApp1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
 </project>

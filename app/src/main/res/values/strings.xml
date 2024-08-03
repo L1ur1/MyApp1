@@ -19,8 +19,9 @@
     <string name="edit_last_name">APELLIDOS</string>
     <string name="edit_cel">CELULAR</string>
     <string name="edit_correo">CORREO</string>
-    <string name="edit_pass">CONTRASEÑA</string>
-    <string name="btn_create">CREAR</string>
+    <string name="edit_pass_create">CONTRASEÑA</string>
+    <string name="btn_create">REGISTRARSE</string>
+    <string name="btn_login_create">LOGIN</string>
 
     //Recuperar Contraseña
     <string name="re_pass">RECUPERAR CONTRASEÑA</string>
